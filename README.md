@@ -10,5 +10,5 @@ Also if there is any change in UI then it not required to changes any presenter 
 View can be changed without changing the presenter business logic. 
 Model - contains only the application data which we publish in the view. 
 There can be model specific to JSON data coming from server or DB specific data. 
-View - contains only the UI part. We try to keep as simple as possible without any business logic. 
+View - contains only the UI part. We try to view keep as simple as possible without any business logic. 
 Presenter - contains the business logic. Presneter takes care of getting and publishing the updated data to view.
