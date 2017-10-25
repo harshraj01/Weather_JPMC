@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/city_textview_height"
+        android:text="@string/city_name"
+        android:id="@+id/cityName"
+        android:textSize="@dimen/city_text_size"
+        android:gravity="center_horizontal" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/temp_textview_height"
+        android:text="@string/city_temperature"
+        android:id="@+id/weatherTemperature"
+        android:textSize="@dimen/temp_text_size"
+        android:layout_below="@+id/cityName"
+        android:gravity="center_horizontal"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/temp_description_height"
+        android:text="@string/city_weather_description"
+        android:id="@+id/weatherDescription"
+        android:textSize="@dimen/temp_description_text_size"
+        android:layout_below="@+id/weatherTemperature"
+        android:gravity="center_horizontal"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/temp_textview_height"
+        android:text="@string/minmaxTemperature"
+        android:id="@+id/weatherMinMax"
+        android:textSize="@dimen/temp_text_size"
+        android:layout_below="@+id/weatherDescription"
+        android:gravity="center_horizontal"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/temp_image_textview_height"
+        android:id="@+id/weatherIcon"
+        android:layout_below="@+id/weatherMinMax"
+        android:gravity="center_horizontal"/>
+
+</LinearLayout>
